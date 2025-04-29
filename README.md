@@ -57,4 +57,4 @@ As mensagens são formatadas com timestamps e cores para facilitar a leitura:
 
 ## **Licença**
 
-Licenciado sob a licença MIT.
+Licenciado sob a licença CC-BY-ND-4.0.
