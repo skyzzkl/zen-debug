@@ -1,0 +1,21 @@
+Licença: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+
+Você tem permissão para compartilhar, usar e distribuir este software,
+inclusive para fins comerciais, contanto que:
+- Atribua crédito apropriado ao autor original (Pedro Koning).
+- Não modifique, edite ou crie derivados deste software.
+
+Mais informações:
+https://creativecommons.org/licenses/by-nd/4.0/
+
+---
+
+License: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+
+You are allowed to share, use, and distribute this software,
+including for commercial purposes, provided that:
+- Proper credit is given to the original author (Pedro Koning).
+- You do not modify, edit, or create derivative works based on this software.
+
+More information:
+https://creativecommons.org/licenses/by-nd/4.0/
