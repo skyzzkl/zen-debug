@@ -1,6 +1,6 @@
 {
   "name": "zen-debug",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Um simple porem poderoso depurador para o seu código JavaScript.",
   "keywords": [
     "debug",
