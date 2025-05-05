@@ -36,7 +36,7 @@
 
 <hr/>
 
-<h2 align="center">Sobre</h2>
+<h2 align="center">About</h2>
 
 <p align="center">
   <b>zen-debug</b> provides an efficient and beautiful solution for logging in your projects.
