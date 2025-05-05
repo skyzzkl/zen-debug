@@ -1,8 +1,16 @@
 {
 	"name": "zen-debug",
 	"version": "1.0.2",
-	"description": "Um simple porem poderoso depurador para o seu código JavaScript.",
-	"keywords": ["debug", "debugger", "javascript", "nodejs"],
+	"description": "A simple yet powerful debugger for your nodejs code.",
+	"keywords": [
+		"debug",
+		"debugger",
+		"log",
+		"logging",
+		"console",
+		"logger",
+		"nodejs"
+	],
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
