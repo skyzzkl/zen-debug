@@ -16,6 +16,7 @@
 	"scripts": {
 		"test": "node test/test"
 	},
+	"files": ["index.js", "modules/"],
 	"author": "skyzzk",
 	"license": "CC-BY-ND-4.0",
 	"dependencies": {
