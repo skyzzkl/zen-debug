@@ -1,21 +1,16 @@
 {
-  "name": "zen-debug",
-  "version": "1.0.2",
-  "description": "Um simple porem poderoso depurador para o seu código JavaScript.",
-  "keywords": [
-    "debug",
-    "debugger",
-    "javascript",
-    "nodejs"
-  ],
-  "main": "index.js",
-  "type":"module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "skyzzk",
-  "license": "CC-BY-ND-4.0",
-  "dependencies": {
-    "chalk": "^5.4.1"
-  }
+	"name": "zen-debug",
+	"version": "1.0.2",
+	"description": "Um simple porem poderoso depurador para o seu código JavaScript.",
+	"keywords": ["debug", "debugger", "javascript", "nodejs"],
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node test/test"
+	},
+	"author": "skyzzk",
+	"license": "CC-BY-ND-4.0",
+	"dependencies": {
+		"chalk": "^5.4.1"
+	}
 }
