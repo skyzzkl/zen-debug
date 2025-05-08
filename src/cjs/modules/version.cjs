@@ -1,12 +1,11 @@
-import https from "https";
-import { readFileSync } from "fs";
-import { resolve, dirname } from "path";
-import { fileURLToPath } from "url";
-import chalk from "chalk";
+const https = require("https");
+const { readFileSync } = require("fs");
+const { resolve } = require("path");
+const chalk = import("chalk").then(m => m.default);
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-const pkg = JSON.parse(readFileSync(resolve(__dirname, "../package.json")));
+const pkg = JSON.parse(
+	readFileSync(resolve(__dirname, "../../../package.json"))
+);
 const localVersion = pkg.version;
 const packageName = pkg.name;
 
@@ -14,13 +13,15 @@ const log = async (level, msg) => {
 	const timestamp = new Date().toISOString();
 	const levelTag = `[${level}]`.padEnd(8, " ");
 
-	await console.log(
-		chalk.gray(`[${timestamp}]`) + chalk.yellow(levelTag) + msg
+	console.log(
+		(await chalk).gray(`[${timestamp}]`) +
+			(await chalk).yellow(levelTag) +
+			msg
 	);
 };
 
-export function checkVersion() {
-	return new Promise((resolvePromise, reject) => {
+function checkVersion() {
+	return new Promise(resolvePromise => {
 		const url = `https://registry.npmjs.org/${packageName}`;
 		https
 			.get(url, res => {
@@ -54,3 +55,5 @@ export function checkVersion() {
 			});
 	});
 }
+
+module.exports = { checkVersion };

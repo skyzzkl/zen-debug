@@ -68,8 +68,21 @@ pnpm add zen-debug
 
 <h2 align="center">Usage example</h2>
 
-```js
-import { log } from "zen-debug";
+<h4> ESM - ECMAScript (RECOMENDED) </h4>
+
+```javascript
+import log from "zen-debug";
+
+log.info("server started.");
+log.conn("client connected.");
+log.warn("high memory usage.");
+log.error("database inaccessible.");
+```
+
+<h4> CJS - CommonJS (RISKS OF ERROR) </h4>
+
+```javascript
+const log = require("zen-debug");
 
 log.info("server started.");
 log.conn("client connected.");

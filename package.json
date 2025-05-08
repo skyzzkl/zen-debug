@@ -1,7 +1,7 @@
 {
 	"name": "zen-debug",
-	"version": "1.0.2",
-	"description": "A simple yet powerful debugger for your nodejs code.",
+	"version": "1.0.3",
+	"description": "A simple and powerful logger for your project.",
 	"keywords": [
 		"debug",
 		"debugger",
@@ -9,14 +9,22 @@
 		"logging",
 		"console",
 		"logger",
-		"nodejs"
+		"nodejs",
+		"shell",
+		"console",
+		"terminal",
+		"cli",
+		"string",
+		"text"
 	],
-	"main": "index.js",
 	"type": "module",
-	"scripts": {
-		"test": "node test/test"
+	"main": "./src/esm/index.mjs",
+	"exports": {
+		"import": "./src/esm/index.mjs",
+		"require": "./src/cjs/index.cjs"
 	},
-	"files": ["index.js", "modules/"],
+	"scripts": {},
+	"files": ["src/"],
 	"author": "skyzzk",
 	"license": "CC-BY-ND-4.0",
 	"dependencies": {

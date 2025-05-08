@@ -1,8 +1,6 @@
 import chalk from "chalk";
 import process from "node:process";
-import { checkVersion } from "./version.js";
-
-let checkv = false;
+import { checkVersion } from "./version.mjs";
 
 class Logger {
 	constructor() {
