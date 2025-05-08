@@ -68,7 +68,7 @@ pnpm add zen-debug
 
 <h2 align="center">Usage example</h2>
 
-<h4> ESM - ECMAScript (RECOMENDED) </h4>
+<h4> ESM - ECMAScript (RECOMMENDED) </h4>
 
 ```javascript
 import log from "zen-debug";
