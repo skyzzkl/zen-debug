@@ -1,6 +1,6 @@
 {
-	"name": "zen-debug",
-	"version": "1.0.3",
+	"name": "zendebug",
+	"version": "1.0.5",
 	"description": "A simple and powerful logger for your project.",
 	"keywords": [
 		"debug",

@@ -1,6 +1,6 @@
 <!-- README.md -->
 
-<h1 align="center">zen-debug</h1>
+<h1 align="center">zendebug</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/skyzzkl/zen-debug/main/assets/logo.png" alt="zenthra logo" width="80" />
@@ -13,7 +13,7 @@
 
 <p align="center">
   <!-- Linha 1: GitHub e Licença -->
-  <a href="https://github.com/skyzzkl/zen-debug">
+  <a href="https://github.com/skyzzkl/zendebug">
     <img src="https://img.shields.io/badge/GitHub-Repo-lightgrey?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
   </a>
   <a href="https://creativecommons.org/licenses/by-nd/4.0/">
@@ -23,11 +23,11 @@
 
 <p align="center">
   <!-- Linha 2: Instalação -->
-  <a href="https://www.npmjs.com/package/zen-debug">
+  <a href="https://www.npmjs.com/package/zendebug">
     <img src="https://img.shields.io/npm/v/zen-debug?color=blue&style=for-the-badge&logo=npm" alt="NPM version" />
   </a>
   
-  <a href="https://yarnpkg.com/package?q=zen-debug&name=zen-debug">
+  <a href="https://yarnpkg.com/package?q=zendebug&name=zendebug">
   <img src="https://img.shields.io/badge/yarn-add-blue?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn Add" />
   </a>
   
